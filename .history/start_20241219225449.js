@@ -38,21 +38,6 @@ const person = {
     age:50,
     eyeColor: "blue"
   };
-// Create another Object
-const car = {
-    make: "Toyota",
-    model: "Corolla",
-    year: 2020,
-    color: "red"
-};
-
-// Create a Copy
-const y = car;
-
-// Change Color
-y.color = "blue";
-
-console.log(car.make + " " + car.model + " is " + car.color);
   
   // Create a Copy
   const x = person;
